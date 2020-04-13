@@ -2,7 +2,7 @@
 
     class Conexion
     {
-      private $usuario;
+      private $usuario="root";
       private $base="erp";
       private $password="";
       private $host="localhost";
