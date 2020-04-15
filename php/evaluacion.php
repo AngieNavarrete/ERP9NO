@@ -1,5 +1,5 @@
 <?php 
-    require_once("conexion.php");
+    require_once("conexión.php");
     class Usuario extends Conexion
     {
     	public function alta($IDevaluacion,$tipo,$pregunta1,$pregunta2,$pregunta3,$pregunta4,$pregunta5,$pregunta6,$pregunta7,$pregunta8,$pregunta9,$pregunta10)

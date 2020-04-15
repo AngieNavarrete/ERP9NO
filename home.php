@@ -19,6 +19,8 @@
  			<a href="?sec=inicio"><li>Inicio</li></a>
  			<a href="?sec=usu"><li>Usuario</li></a>
  			<a href="?sec=pro"><li>Producto</li></a>
+ 			<a href="?sec=pro"><li>Compra</li></a>
+ 			<a href="?sec=pro"><li>Cliente</li></a>
  			<a href="?sec=cerrar"><li>Cerrar Sesión</li></a>
  				</ul>
  			</nav>
@@ -33,6 +35,13 @@
  			case 'pro':
  				require_once("php/vistaProducto.php");
  				break;
+ 				case 'com':
+ 				require_once("php/vistaCompra.php");
+ 				break;
+ 				case 'cli':
+ 				require_once("php/vistaCliente.php");
+ 				break;
+
  			case 'cerrar':
  				session_destroy();
  				header("Location: index.php");

@@ -1,5 +1,5 @@
 <?php 
-    require_once("conexion.php");
+    require_once("conexión.php");
     class Usuario extends Conexion
     {
     	public function alta($IDjornada,$hrs_trabajadas,$dias_trabajados,$pago_hora,$horas_extras,$bonos,$IDempleado)

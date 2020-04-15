@@ -7,7 +7,7 @@ class Empleado extends Conexion
         $this->sentencia="INSERT INTO empleado VALUES (null,'$nombre','$appaterno','$apmaterno','$correo','$rfc','$telefono','$sexo','$fechadeingreso','$cargo','$salario','$estadocivil','$nss')";
         $this->ejecutarSentencia();
         
-        public function eliminar ($id)
+        public function baja ($id)
         {
             $this->sentencia = "DELETE FROM empleado WHERE IDempleado=$id";
             $this->ejecutarSentencia();

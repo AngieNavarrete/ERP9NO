@@ -1,6 +1,7 @@
 <?php
 require_once("conexión.php");
-class Proveedor extends Conexion{
+class Proveedor extends Conexion}
+{
     public function alta($nombre,$telefono,$direccion,$correo,$rfc){
         $this->sentencia = "INSERT INTO proveedor VALUES (null,'$nombre','$telefono','$direccion','$correo','$rfc')";
         $this->ejecutarSentencia();

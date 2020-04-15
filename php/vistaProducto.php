@@ -27,6 +27,7 @@
      <input type="text" name="cantidad" placeholder="Cantidad:"> <br>  
       <input type="text" name="cantmin" placeholder="Cantidad Minima:"> <br>
       <input type="text" name="cantmax" placeholder="Cantidad Maxima:"> <br>
+      <input type="date" name="fecha"> <br>
       Categoria: <br>
      <select name="categoria">
         <option value="1">...</option>
